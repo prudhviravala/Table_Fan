@@ -1,0 +1,41 @@
+svg{
+    width: 300px;
+   height: 300px;
+}
+.fan{
+    /* perspective: 100px; */
+    margin: 30px;
+}
+button{
+    height: 30px;
+    width: 45px;
+    margin-right: 10px;
+    font-size: 15px;
+    padding: 5px;
+}
+#ON:hover ~svg{
+    transform:rotate(3600deg);
+    transition-duration: 25s;
+
+}
+#ONE:hover ~svg{
+    transform: rotate(3600deg);
+    transition-duration: 20s;
+}
+#TWO:hover ~svg{
+    transform: rotate(3600deg);
+    transition-duration: 15s;
+
+}
+#THREE:hover ~svg{
+    transform: rotate(3600deg);
+    transition-duration: 10s;
+}
+#FOUR:hover ~svg{
+    transform: rotate(3600deg);
+    transition-duration: 7.5s;
+}
+#FIVE:hover ~svg{
+    transform: rotate(3600deg);
+    transition-duration: 3.5s;
+}
